@@ -1,0 +1,15 @@
+@use 'partials/variables' as var;
+@use 'partials/placeholders';
+
+a {
+    header & {
+        font-size: 1.5rem;
+        color: var.$color-text-clair;
+        @extend %text-decoration;
+    }
+
+    &:hover {
+        font-weight: 900;
+    }
+
+}

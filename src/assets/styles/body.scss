@@ -1,0 +1,38 @@
+@use "partials/variables" as var;
+
+body {
+    background-color: var.$color-primary;
+    color: var.$color-secondary;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    gap: 2rem;
+
+    main {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+
+        img {
+            max-width: 500px;
+            max-height: 500px;
+            border: 1px solid var.$color-text-secondary;
+            border-radius: 10px;
+        }
+
+        div {
+            align-self: flex-end;
+            padding: 0 2rem;
+        }
+
+        section {
+            width: 80%;
+            border: 2px solid var.$color-text-secondary;
+            border-radius: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+// PROJECT COLORS
+$beige: #F2994B;
+$beigefonce: #D97941;
+$roux: #A63A12;
+$brun: #59190B;
+$blanc: blanchedalmond;
+
+$color-primary: $blanc;
+$color-secondary: $brun;
+$color-text-clair: $blanc;
+$color-text-fonce: $brun;
+$color-text-secondary: $roux;
+
+// BREAKPOINTS
+
+$small: 360px;
+$medium: 768px;
+$large: 1024px;
+
+$small-up: (min-width: #{$small});
+$medium-up: (min-width: #{$medium});
+$large-up: (min-width: #{$large});

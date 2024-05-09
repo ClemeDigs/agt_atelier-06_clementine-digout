@@ -1,0 +1,25 @@
+@use "partials/variables" as var;
+@use 'partials/mixins' as mixins;
+
+header {
+    padding: 30px;
+    background-color: var.$color-secondary;
+    color: var.$color-text-clair;
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+    }
+
+    section & {
+        padding: 0.5rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}

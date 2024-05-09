@@ -1,0 +1,14 @@
+@use "partials/variables" as var;
+
+footer {
+    padding: 1rem 3rem;
+    background-color: var.$color-secondary;
+    color: var.$color-text-clair;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
